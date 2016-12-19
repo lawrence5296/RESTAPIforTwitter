@@ -1,0 +1,30 @@
+import requests
+import json
+import time
+from requests_oauthlib import OAuth1Session
+
+
+def main():
+	### Set environment
+ 		
+	### Chose target url
+	url = "https://api.twitter.com/1.1/statuses/home_timeline.json"
+
+	### Set params
+	payload = {}
+
+	### Set Oauth
+
+	### Requests REST API
+	
+	#print r.encoding
+	#print r.headers
+	#print r.status_code
+	#print json.dumps(r.json(), indent=4)
+
+	### Set finish time and print
+	print "time = %f" %(executetime)
+
+
+if __name__ == "__main__":
+	main()	
